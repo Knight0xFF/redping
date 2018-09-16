@@ -24,3 +24,5 @@ import curses
 #     print '%d packets dropped by kernel' % ndrop
 
 sniff(filter="", iface="en0", prn=lambda x: x.show())
+
+print "hello world"
